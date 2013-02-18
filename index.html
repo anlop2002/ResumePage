@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Andres Lopez de Vergara Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<!-- Le styles -->
+    <link rel="stylesheet" title="bootstrap" href="css/bootstrap.css">
+
+    <link rel="alternate stylesheet" title="bootstrap-1" href="css/bootstrap-1.css">
+    <link rel="alternate stylesheet" title="bootstrap-2" href="css/bootstrap-2.css">
+    <link rel="alternate stylesheet" title="bootstrap-3" href="css/bootstrap-3.css">
+    <link rel="alternate stylesheet" title="bootstrap-4" href="css/bootstrap-4.css">
+    <link rel="alternate stylesheet" title="bootstrap-5" href="css/bootstrap-5.css">
+    <link rel="alternate stylesheet" title="bootstrap-6" href="css/bootstrap-6.css">
+    <link rel="alternate stylesheet" title="bootstrap-7" href="css/bootstrap-7.css">
+	
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    
+    <link rel="stylesheet" href="css/jquery.lightbox-0.5.css" media="screen" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+ 
+ 	<script>   
+    function setActiveStyleSheet(title)
+	{
+		var i, a, main;
+		for(i=0; (a = document.getElementsByTagName("link")[i]); i++) 
+		{
+			if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("title")) 
+			{
+				a.disabled = true;
+				if(a.getAttribute("title") == title) a.disabled = false;
+			}
+		}
+	}
+    </script>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top hidden-desktop">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Andres Lopez de Vergara</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="#" onClick="$('html,body').animate({scrollTop: $('#work-experience').offset().top}, 1500);">Work experience</a></li>
+              <li><a href="#" onClick="$('html,body').animate({scrollTop: $('#skills').offset().top}, 1500);">Skills</a></li>
+              <li><a href="#portifolio" onClick="$('html,body').animate({scrollTop: $('#portifolio').offset().top}, 1500);">Portifolios</a></li>
+              <li><a href="#education" onClick="$('html,body').animate({scrollTop: $('#education').offset().top}, 1500);">Education</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+    	<div class="well" style="position:fixed; top:20%; left:0;">
+    	<ul class="nav nav-tabs nav-stacked">
+            <header><strong>Color my Resume!</strong></header>
+        	<li class="active">
+            	<a href="#" onClick="setActiveStyleSheet('bootstrap', 0);return false;" >
+            		<img src="img/style-default.png">
+                </a>
+			</li>
+            <li class="active">
+            	<a href="#" onClick="setActiveStyleSheet('bootstrap-1', 1);return false;" >
+                	<img src="img/style-1.png">
+                </a>
+			</li>
+			<li class="active">
+            	<a href="#" onClick="setActiveStyleSheet('bootstrap-2', 2);return false;">
+                	<img src="img/style-2.png">
+                </a>
+			</li>
+            <li class="active">
+            	<a href="#" onClick="setActiveStyleSheet('bootstrap-3', 3);return false;">
+                	<img src="img/style-3.png">
+                </a>
+			</li>
+            <li class="active">
+            	<a href="#" onClick="setActiveStyleSheet('bootstrap-4', 4);return false;">
+                	<img src="img/style-4.png">
+                </a>
+			</li>
+            <li class="active">
+            	<a href="#" onClick="setActiveStyleSheet('bootstrap-5', 5);return false;">
+                	<img src="img/style-5.png">
+                </a>
+			</li>
+            <li class="active">
+            	<a href="#" onClick="setActiveStyleSheet('bootstrap-6', 6);return false;">
+                	<img src="img/style-6.png">
+                </a>
+			</li>
+        </ul>
+    </div>
+        <div class="row">
+        	<div id="column-1" class="span6">
+                <div class="row">
+                    <div id="infoyou" class="span6">
+                    	<div class="breadcrumb">
+                        	<div class="span1">
+                        		<img src="img/Andres_Lopez.jpg" class="">
+							</div>
+                            <div class="span4">
+                            	<h1>Andres<br> Lopez de Vergara</h1>
+                            </div>
+
+                            <div class="span4">							
+                                <a href="#" rel="popover" class="pull-right" data-content="<strong>2101 Rio Grande Street, Apartment 19007</strong> <br> Austin, TX, United States 78705 <br> P: (512) 767-4938" data-original-title="Adress">
+                                    <img src="img/address.png" width="24">
+                                </a>
+                                <a href="#" class="tooltip-test pull-right" data-original-title="anlop2002@gmail.com">
+                                    <img src="img/email.png" width="24">
+                                </a>
+                                <a href="#" class="tooltip-test pull-right" data-original-title="+1 (512) 767 4938">
+                                    <img src="img/phone.png" width="24">
+                                </a>
+                                <!--<a href="#" class="btn btn-mini" onClick="window.print();"><i class="icon-print"></i> Print</a>
+                                <a href="#" class="btn btn-mini"><i class="icon-download-alt"></i> Download</a>
+                                -->
+							</div>
+                            
+                            <div class="span5">
+                                <p>
+                                    I thrive in challenging and results-oriented environments, and it is these qualities that attract me to a career with an organization such as yours. As a highly motivated, success-driven individual, I have a strong desire to exceed expectations and deliver the effort necessary to achieve company goals.
+                                </p>
+                            </div>
+                            
+                            <div class="clearfix"></div>
+                        </div>
+                    </div><!--/infoyou-->
+                    <div id="QuicContact" class="span6 pagination-centered visible-phone">
+						<div class="breadcrumb">
+                        	<a href="#" class="tooltip-test" data-original-title="Facebook">
+                            	<img src="img/facebook.png" width="32">
+                            </a>
+                            <a href="#" class="tooltip-test" data-original-title="Twitter">
+                            	<img src="img/twitter.png" width="32">
+							</a>
+                            <a href="#" class="tooltip-test" data-original-title="Google">
+                            	<img src="img/google.png" width="32">
+                            </a>
+                            <a href="#" class="tooltip-test" data-original-title="LinkedIn">
+                            	<img src="img/linkedin.png" width="32">
+                            </a>
+                            <a href="#" class="tooltip-test" data-original-title="Flickr">
+                            	<img src="img/flickr.png" width="32">
+                            </a>
+                            <a href="#" class="tooltip-test" data-original-title="Tumblr">
+                            	<img src="img/tumblr.png" width="32">
+                            </a>
+                            <a href="#" class="tooltip-test" data-original-title="Youtube">
+                            	<img src="img/youtube.png" width="32">
+                            </a>
+                            <a href="#" class="tooltip-test" data-original-title="Vimeo">
+                            	<img src="img/vimeo.png" width="32">
+                            </a>
+                            <a href="#" class="tooltip-test" data-original-title="MySpace">
+                            	<img src="img/myspace.png" width="32">
+                            </a>
+                            <a href="#" class="tooltip-test" data-original-title="Reddit">
+                            	<img src="img/reddit.png" width="32">
+                            </a>
+                            <a href="#" class="tooltip-test" data-original-title="Stumbleupon">
+                            	<img src="img/stumbleupon.png" width="32">
+                            </a>
+                            <a href="#" class="tooltip-test" data-original-title="Delicious">
+                            	<img src="img/delicious.png" width="32">
+							</a>
+                        </div>
+                    </div><!--/quickcontact-->
+                </div><!--/row-->
+                <div class="row">
+                    <div class="span6">
+                        <div id="work-experience" class="breadcrumb">
+                            <legend><h2>Work experience</h2></legend>
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span5">
+                                        <span class="label label-info">Servuss.com, Founder/Developer</span>
+                                        <a class="tooltip-test" data-original-title="Current work">
+                                            <img src="img/current.png" width="32">
+                                        </a>
+                                        <br><br>
+                                        •   Accepted as one of ten teams for entrepreneurship course through highly competitive process<br>
+                                        •   Direct weekly meeting with Austin entrepreneurs, including CEO’s and startup founders<br>
+                                        •   Acquire UML modeling experience in company environment<br>
+                                        •   Gain experience in Ruby on Rails development in high-pressure environment
+                                    </div><!--/span5-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <hr>
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span5">
+                                        <span class="label label-info">Margana C.A., Systems Technician</span>
+                                        <a class="tooltip-test" data-original-title="Current work">
+                                            <img src="img/current.png" width="32">
+                                        </a>
+                                        <br><br>
+                                        •   Significantly increased organizational efficiency through the effective programming and development of an order request system<br>
+                                        •   Managed and upgraded a broad range of computers and various other electronic systems <br>
+                                        •   Installed and maintained a digital security system<br>
+                                        •   Provided guidance and consulting on the acquisition of new software and hardware<br>
+                                        •   Taught software classes to employees annually<br>
+                                    </div><!--/span5-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <hr>
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span5">
+                                        <span class="label label-info">Portugal Telecom Inovacao, Intern</span>
+                                        <br><br>
+                                        •   Worked with optic fiber and Ethernet networks<br>
+                                        •   Performed translation of manuals from Portuguese to English<br>
+                                        •   Volunteered for testing MPLS high performance telecommunications networks<br>
+                                        •   Demonstrated capabilities for cooperating and performing in an office environment<br>
+                                    </div><!--/span5-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <hr>
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span5">
+                                        <span class="label label-info">CIST C.A., Store Assistant</span>
+                                        <br><br>
+                                            •   Performed wireless communications installation<br>
+                                            •   Assembled and troubleshot computer systems and wireless equipment<br>
+                                            •   Gained accounting and resources management experience<br>
+                                    </div><!--/span5-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <hr>
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span5">
+                                        <span class="label label-info">UT RecSports, Intramural Soccer Official</span>
+                                        <br><br>
+                                        •   Designated central referee, referee in charge <br>
+                                        •   Served in other positions and gained experience managing teams<br>
+                                    </div><!--/span5-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <a class="hidden-desktop pull-right" onClick="$('html,body').animate({scrollTop: $('#infoyou').offset().top}, 1500);"><i class="icon-circle-arrow-up" style="cursor:pointer;"></i></a>
+                            <div class="clearfix"></div>
+                            
+                        </div><!--/breadcrumb-->
+            		</div><!--/span6-->
+        		</div><!--/row-->
+                <div class="row">
+                    <div class="span6">
+                        <div id="education" class="breadcrumb">
+                            <legend><h2>Education</h2></legend>
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span5">
+                                        <span class="label label-info">The University of Texas at Austin</span> <span class="label label-inverse">2013</span>
+                                        <br><br>
+                                        Technical Area: Software Engineering and Academic Enrichment<br><br>
+                                    </div><!--/span5-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span5">
+                                        <a style="align-center"><strong>Related Coursework</strong></a><br>
+
+                                        Object Oriented Programming, Software Design and Implementation, Software Testing, Algorithms, Embedded Systems, Data Structures, Digital Logic Design, Programming Languages
+                                    </div><!--/span5-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+
+                            <a class="hidden-desktop pull-right" onClick="$('html,body').animate({scrollTop: $('#infoyou').offset().top}, 1500);"><i class="icon-circle-arrow-up" style="cursor:pointer;"></i></a>
+                            <div class="clearfix"></div>
+                            
+                        </div><!--/breadcrumb-->
+            		</div><!--/span6-->
+        		</div><!--/row-->
+            </div><!--/span6-->
+            <div id="column-2" class="span6">
+                <div class="row">
+                    <div id="QuicContact" class="span6 pagination-centered hidden-phone">
+						<div class="breadcrumb">
+                        	<a href="https://www.facebook.com/anlop2002" class="tooltip-test" data-original-title="Facebook">
+                            	<img src="img/facebook.png" width="32">
+                            </a>
+                            <a href="https://twitter.com/anlop2002" class="tooltip-test" data-original-title="Twitter">
+                            	<img src="img/twitter.png" width="32">
+							</a>
+                            <!--<a href="#" class="tooltip-test" data-original-title="Google">
+                            	<img src="img/google.png" width="32">
+                            </a>-->
+                            <a href="http://www.linkedin.com/pub/andres-lopez-de-vergara/37/529/255" class="tooltip-test" data-original-title="LinkedIn">
+                            	<img src="img/linkedin.png" width="32">
+                            </a>
+                            <!--
+                            <a href="#" class="tooltip-test" data-original-title="Flickr">
+                            	<img src="img/flickr.png" width="32">
+                            </a>
+                            <a href="#" class="tooltip-test" data-original-title="Tumblr">
+                            	<img src="img/tumblr.png" width="32">
+                            </a>
+                            <a href="#" class="tooltip-test" data-original-title="Youtube">
+                            	<img src="img/youtube.png" width="32">
+                            </a>
+                            -->
+                        </div>
+                    </div><!--/quickcontact-->
+                </div><!--/row-->
+                <div class="row">
+                    <div class="span6">
+                        <div id="skills" class="breadcrumb">
+                            <legend><h2>Skills</h2></legend>
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-success">Java</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-success progress-striped active">
+                                            <div class="bar" style="width: 90%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-success">Ruby on Rails</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-success progress-striped active">
+                                            <div class="bar" style="width: 80%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-success">HTML</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-success progress-striped active">
+                                            <div class="bar" style="width: 76%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-success">CSS</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-success progress-striped active">
+                                            <div class="bar" style="width: 75%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-success">JavaScript</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-success progress-striped active">
+                                            <div class="bar" style="width: 70%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-success">C</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-success progress-striped active">
+                                            <div class="bar" style="width: 70%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-warning">MySQL</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-warning progress-striped active">
+                                            <div class="bar" style="width: 60%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                             <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-warning">C++</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-warning progress-striped active">
+                                            <div class="bar" style="width: 50%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                             <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-warning">JUnit</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-warning progress-striped active">
+                                            <div class="bar" style="width: 40%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-important">VHDL</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-danger progress-striped active">
+                                            <div class="bar" style="width: 40%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            
+                            <a class="hidden-desktop pull-right" onClick="$('html,body').animate({scrollTop: $('#infoyou').offset().top}, 1500);"><i class="icon-circle-arrow-up" style="cursor:pointer;"></i></a>
+                            <div class="clearfix"></div>
+                            
+                        </div><!--/breadcrumb-->
+            		</div><!--/span6-->
+        		</div><!--/row-->
+                <div class="row">
+                    <div class="span6">
+                        <div id="Spoken Languages" class="breadcrumb">
+                            <legend><h2>Languages</h2></legend>
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-success">English</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-success progress-striped active">
+                                            <div class="bar" style="width: 100%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-success">Spanish</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-success progress-striped active">
+                                            <div class="bar" style="width: 100%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-warning">Portuguese</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-warning progress-striped active">
+                                            <div class="bar" style="width: 70%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                </div><!--/row-->
+                <div class="row">
+                    <div class="span6">
+                        <div id="portifolio" class="breadcrumb">
+                            <legend><h2>One of my hobbies: Photography</h2></legend>
+                            <div class="row">
+                                <div class="span6">
+                                	<div id="gallery">
+                                        <ul class="thumbnails">
+                                            <li class="span5">
+                                                <a href="img/Photo7.jpg" class="thumbnail" title="Description of image">
+                                                    <img src="img/Photo7.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="span3">
+                                                <a href="img/Photo3.jpg" class="thumbnail" title="Description of image">
+                                                    <img src="img/Photo3.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="span2">
+                                                <a href="img/Photo4.jpg" class="thumbnail" title="Description of image">
+                                                    <img src="img/Photo4.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="span3">
+                                                <a href="img/Photo5.jpg" class="thumbnail" title="Description of image">
+                                                    <img src="img/Photo5.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="span2">
+                                                <a href="img/Photo1.jpg" class="thumbnail" title="Description of image">
+                                                    <img src="img/Photo1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                        </ul>
+									</div>
+                                </div><!--/span6-->
+                            </div><!--/row-->
+
+                            <a class="hidden-desktop pull-right" onClick="$('html,body').animate({scrollTop: $('#infoyou').offset().top}, 1500);"><i class="icon-circle-arrow-up" style="cursor:pointer;"></i></a>
+                            <div class="clearfix"></div>
+                            
+                        </div><!--/breadcrumb-->
+            		</div><!--/span6-->
+        		</div><!--/row-->
+            </div><!--/span6-->
+		</div><!--/row-->
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/application.js"></script>
+    <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+    
+    <!-- Ativando o jQuery lightBox plugin -->
+    <script type="text/javascript">
+    $(function() {
+        $('#gallery a').lightBox();
+    });
+    </script>
+    
+  </body>
+</html>
